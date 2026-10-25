@@ -1,0 +1,5 @@
+[target.wasm32-unknown-unknown]
+rustflags = ["-C", "linker=wild", "-C", "linker-flavor=wasm-ld"]
+
+[build]
+target = "wasm32-unknown-unknown"
